@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="myTax.jnlp">
+  <information>
+    <title>myTax</title>
+    <vendor>IRFAN</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\xstream-1.4.11.1.jar" size="621071" download="eager" />
+    <jar href="myTax.jar" size="102139" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="myTax" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="mytax.Main"  name="myTax" />
+  <update check="always"/>
+</jnlp>
